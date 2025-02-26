@@ -25,7 +25,7 @@ const LearnEarnSection = () => {
     const payload = { name, emailId, referredBy };
 
     try {
-      const response = await fetch("https://example.com/api/refer", {
+      const response = await fetch("https://accredian-backend-task-1-3w0s.onrender.com/referral", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
